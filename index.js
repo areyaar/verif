@@ -30,7 +30,7 @@ const requestMap = new Map();
 // GetQR returns auth request
 async function GetAuthRequest(req, res) {
   // Audience is verifier id
-  const hostUrl = 'https://8770-103-151-209-147.ngrok-free.app'; //ngrok url
+  const hostUrl = 'https://sedax.tech'; //domain name
   const sessionId = 1;
   const callbackURL = '/api/callback';
   const audience =
